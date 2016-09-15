@@ -1,0 +1,72 @@
+body {
+  background-color: #7fa9bf;
+  font-family: 'Source Sans Pro',Helvetica,Arial,sans-serif;
+  margin: 0;
+
+  div.react-raster-container {
+    margin: 1em auto;
+    width: 40vw;
+
+    .application-header {
+      text-align: center;
+
+      h1 {
+        margin: 0;
+      }
+
+      h2 {
+        margin-top: 0;
+      }
+    }
+
+    .dpi-buttons {
+      .dpi-button {
+        width: 25%;
+        background: #eee;
+        text-decoration: none;
+        color: #333;
+        font-family: Arial, sans-serif;
+        font-size: large;
+        font-weight: bold;
+        text-align: center;
+        padding: 0.25em;
+        border: 1px solid #aaa;
+        border-radius: 3px;
+        cursor: default;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      .dpi-button:hover {
+        background-color:#f2f2f2;
+        border-color:#888;
+        box-shadow:0 0 2px #ccc;
+      }
+
+      .dpi-down {
+        float: left;
+      }
+
+      .dpi-up {
+        float: right;
+      }
+    }
+
+    .raster-container {
+      background: #fff;
+      border: 1px solid #000;
+      width: 80vw;
+
+      .raster-dot.filled {
+        box-shadow: 0 0 0 1px white inset;
+        background: #000;
+      }
+
+      .raster-dot.empty {
+        box-shadow: 0 0 0 1px black inset;
+        background: #fff;
+      }
+    }
+  }
+}
